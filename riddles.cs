@@ -9,24 +9,6 @@ using System.Collections.Generic;
      static void Main ()
      {
          AskRiddles();
-        //  Console.WriteLine(riddlesList[0]);
-        //  Console.WriteLine(riddlesList.Count);
-        //  riddles.Remove("riddleOne");
-        //  Console.WriteLine(riddles["riddleOne"]);
-        //  Console.WriteLine(riddleOne);
-        //  string riddleOneUserAnswer = Console.ReadLine();
-        //  if (riddleOneUserAnswer != riddleOneAnswer) {
-        //      Console.WriteLine("You got eaten!");
-        //  } else {
-        //      Console.WriteLine("You done massive damage to the Sphinx, nice job!");
-        //     Console.WriteLine(riddleTwo);
-        //     string riddleTwoUserAnswer = Console.ReadLine();
-        //     if (riddleTwoUserAnswer != riddleTwoAnswer) {
-        //         Console.WriteLine("You got eaten!");
-        //     } else {
-        //         Console.WriteLine("You defeated the Sphinx! Good job!");
-        //     }
-        //  }
      }   
         static void AskRiddles ()
         {
@@ -56,9 +38,5 @@ using System.Collections.Generic;
             {
                 Console.WriteLine("Darn, wrong answer.  You were eaten.");
             }
-            //  string riddleOne = "Two sons and two fathers go on a fishing trip.  When they return that night, they have each caught one fish, but only have 3 fish amoung them.  How is this possible? (They kept every fish caught): ";
-            //  string riddleOneAnswer = "There were only three people who went on the trip. A son, a father, and a grandfather.";
-            // string riddleTwo = "The person that builds it doesn't want it, the person that buys it doesn't use it, and the person that uses it doesn't know it.  What is it?";
-            //  string riddleTwoAnswer = "A coffin";
         }
     }
